@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fredy | Curriculum Vitae</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <nav class="navbar">
+
+    <ul class="nav-links">
+      <li><a href="#hero" data-sound="clicky">Inicio</a></li>
+      <li><a href="#about" data-sound="clicky">Sobre mí</a></li>
+      <li><a href="#studies" data-sound="clicky">Estudios</a></li>
+      <li><a href="#contact" data-sound="clicky">Contacto</a></li>
+    </ul>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </nav>
+
+  <section id="hero" class="hero">
+
+    <div class="hero-left">
+      <h2 class="welcome">BIENVENIDO</h2>
+
+      <h1 class="typing-container">
+        <span id="typing-text"></span>
+      </h1>
+
+
+      <p class="subtitle">
+        Estudiante de Ingeniería de Software | Desarrollo Web
+      </p>
+
+
+      <button class="btn-primary" id="btn-primary">Acerca de mí</button>
+
+    </div>
+
+    <div class="hero-card">
+      <div class="photo">
+        <img src="assets/img/perfil-bg.png" alt="Foto perfil">
+      </div>
+      <div class="info">
+        <ul>
+          <p><strong>Fredy José </br> Alvarez González</strong></p>
+          <li><i class="fa-solid fa-graduation-cap"></i> Bachiller</li>
+          <li><i class="fa-solid fa-location-dot"></i> Colombia</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-container">
+
+      <h2>Sobre mí</h2>
+
+      <p>
+        Actualmente me encuentro en una etapa de formación constante, enfocada en potenciar tanto mis habilidades técnicas como mi crecimiento personal. Me gusta poner a prueba lo que aprendo mediante proyectos prácticos que me permiten mejorar y adquirir experiencia. Cada desafío representa una oportunidad para seguir evolucionando. Mi objetivo es construir soluciones que generen valor y reflejen mi proceso de aprendizaje.
+      </p>
+
+      <div class="about-cards">
+
+        <div class="card">
+          <h3>Fortalezas</h3>
+          <p>Colaboración en equipo, atención al detalle, escucha activa, gestión emocional</p>
+        </div>
+
+        <div class="card">
+          <h3>Enfoque</h3>
+          <p>Aprendizaje constante, código limpio y mejora continua.</p>
+        </div>
+
+      </div>
+
+      <div class="skills-section">
+
+        <h2>Habilidades</h2>
+
+        <div class="skill-cards">
+
+          <div class="card">
+
+            <h3>Técnicas</h3>
+
+            <div class="skill-icons">
+
+              <button class="skill active" data-skill="html">
+                <img src="assets/icons/html.png" alt="HTML" data-sound="selected">
+              </button>
+
+              <button class="skill" data-skill="css">
+                <img src="assets/icons/css.png" alt="CSS" data-sound="selected">
+              </button>
+
+              <button class="skill" data-skill="js">
+                <img src="assets/icons/js.png" alt="JavaScript" data-sound="selected">
+              </button>
+
+              <button class="skill" data-skill="sql">
+                <img src="assets/icons/sql.png" alt="JavaScript" data-sound="selected">
+              </button>
+
+            </div>
+
+            <h3 class="skill-subtitle"></h3>
+
+            <p class="skill-description"></p>
+
+          </div>
+
+          <div class="card">
+
+            <h3>Blandas</h3>
+
+            <div class="skill-icons">
+
+              <button class="skill active" data-skill="resolucion_conflictos">
+                <img src="assets/icons/resolucion_conflictos.png" alt="resolción de conflictos" data-sound="selected">
+              </button>
+
+              <button class="skill" data-skill="creatividad">
+                <img src="assets/icons/creatividad.png" alt="creatividad" data-sound="selected">
+              </button>
+
+              <button class="skill" data-skill="comunicacion">
+                <img src="assets/icons/comunication.png" alt="JavaScript" data-sound="selected">
+              </button>
+
+              <button class="skill" data-skill="empatia">
+                <img src="assets/icons/empatia.png" alt="empatia" data-sound="selected">
+              </button>
+
+            </div>
+
+              <h3 class="skill-subtitle"></h3>
+
+              <p class="skill-description"></p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="studies" class="studies">
+
+    <div class="container">
+
+      <h2>Estudios</h2>
+
+      <div class="main-study">
+        <h3>Bachiller Académico</h3>
+        <p>Institución Educativa Domingo Tarrá Guardo · 2023</p>
+        <!-- Botón para abrir -->
+        <a href="#1" class="link open-modal" data-pdf="assets/docs/diploma-bachiller.pdf" data-sound="click_pen">
+          Ver diploma
+        </a>
+
+      </div>
+
+      <h4 class="sub-title">Otros estudios</h4>
+
+      <div class="studies-grid">
+
+        <div class="study-card">
+          <img src="assets/img/sena1.png" alt="Certificado SENA">
+          <div class="diploma-overlay">
+            <a href="" data-pdf="assets/docs/sena1.pdf" class="btn open-modal" data-sound="click_pen">Ver diploma</a>
+          </div>
+          <p>Formación en Tecnología</p>
+        </div>
+
+        <div class="study-card">
+          <img src="assets/img/sena2.png" alt="Certificado SENA">
+            <div class="diploma-overlay">
+              <a href="" data-pdf="assets/docs/sena2.pdf" class="btn open-modal" data-sound="click_pen">Ver diploma</a>
+            </div>
+          <p>Técnico en Instalaciones Eléctricas</p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="pdfModal">
+    <div class="modal-content">
+
+      <button class="close-btn">&times;</button>
+
+      <iframe id="pdfViewer"></iframe>
+
+      <div class="modal-actions">
+        <a id="downloadBtn" class="download-link" download data-sound="success">
+          Descargar PDF
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <section id="contact" class="contact">
+  <div class="contact-container">
+
+    <h2 class="section-title">Contacto</h2>
+    <p class="contact-subtitle">
+      Si deseas comunicarte conmigo, puedes hacerlo a través de los siguientes medios.
+    </p>
+
+    <div class="contact-info">
+
+      <div class="contact-item">
+        <h3>Email</h3>
+        <div class="icon"><img src="assets/icons/solid-mail.png" alt="gmail"></div>
+        <a href="mailto:fredyjose789@gmail.com">fredyjose789@gmail.com</a>
+      </div>
+
+      <div class="contact-item">
+        <h3>Teléfono</h3>
+        <div class="icon"><img src="assets/icons/solid-phone.png" alt="teléfono"></div>
+        <a href="tel:+5732939893">+57 300 1482150</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <script src="js/scrollSpy.js"></script>
+  <script src="js/entrance.js"></script>
+  <script src="js/hamburger.js"></script>
+  <script src="js/dynamicText.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
