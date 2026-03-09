@@ -1,2 +1,2 @@
-# web-cv
+# cv-web
 My curriculum vitae
