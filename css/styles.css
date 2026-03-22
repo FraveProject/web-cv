@@ -627,7 +627,6 @@ iframe {
 }
 
 .contact-container {
-  min-height: 600px;
   padding: 20px 40px;
 }
 
@@ -657,6 +656,49 @@ iframe {
   color: #0077ff;
 }
 
+
+/*  
+
+  Envíame un mensaje privado
+
+*/
+
+.send-messagge form {
+  background-color: white;
+  padding: 15px 45px 45px;
+  margin: 40px auto;
+  border-radius: 20px;
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  color: #444444;
+  padding: 0px 4px 14px;
+}
+
+form textarea, form input {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 100%;
+  outline: none;  border: 2px solid #d3d3d3;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+form button {
+  align-self: center;
+  background-color: #000000;
+  color: white;
+  padding: 8px 15px;
+  border: 0px transparent;
+  border-radius: 5px;
+}
 
 /*  
 
@@ -717,12 +759,8 @@ iframe {
   display: flex;
 }
 
-
 .contact-item{
   flex: 1;
 }
 
-.contact {
-  height: 90dvh;
-}
 }
